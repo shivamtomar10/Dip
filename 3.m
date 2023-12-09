@@ -47,3 +47,7 @@ fprintf('The mean value of the image is: %.2f\n', mean_value);
 d. Different Brightness by changing mean value
 brightnessFactor = 1.5; % You can adjust this factor as needed
 brightenedImage = image1 + brightnessFactor;
+
+imshow(brightenedImage);
+title('Brightened Image');
+imwrite(brightenedImage, 'brightened_image.jpg');
