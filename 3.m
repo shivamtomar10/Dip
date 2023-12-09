@@ -42,3 +42,8 @@ mean_value = mean(image_double(:));
 
 % Display the mean value
 fprintf('The mean value of the image is: %.2f\n', mean_value);
+
+
+d. Different Brightness by changing mean value
+brightnessFactor = 1.5; % You can adjust this factor as needed
+brightenedImage = image1 + brightnessFactor;
