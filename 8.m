@@ -1,5 +1,5 @@
 % Read the original image
-originalImage = imread('fly.jpg'); 
+originalImage = imread('ngc6543a.jpg'); 
 % Display the original image
 figure;
 imshow(originalImage);
