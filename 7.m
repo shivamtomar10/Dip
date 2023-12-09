@@ -1,5 +1,5 @@
 % Read the original image
-originalImage = imread('corona.jpg'); 
+originalImage = imread('ngc6543a.jpg'); 
 
 % Display the original image
 figure;
